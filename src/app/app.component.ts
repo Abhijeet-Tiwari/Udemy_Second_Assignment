@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  userName = 'Abhijeet';
+  checkEmptyUserName:boolean = false;
+  
+  resetInputField() {
+      this.userName = "";
+   }
 }
